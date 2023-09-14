@@ -1,0 +1,59 @@
+body.light {
+  background: #fff1f7;
+}
+
+body.light .header {
+  background-image: url("../assets/svg/bottom-left-frame-light.svg"), url("../assets/svg/top-right-frame-light.svg"), url("../assets/img/promo-bg-light.jpg");
+}
+
+body.light .header__menu-btn {
+  color: #353430;
+}
+
+body.light .header__menu-btn_active {
+  border-color: #353430;
+}
+
+body.light .header__menu-btn:focus {
+  border-bottom: 1px solid #353430;
+}
+
+body.light .header__menu-btn:hover {
+  border-color: #353430;
+}
+
+body.light .header__top-text {
+  display: none;
+}
+
+body.light .heading {
+  color: #ffc2e6;
+  text-shadow: 4px 4px 0px #ff0070;
+}
+
+body.light .subheading,
+body.light .list__item-heading,
+body.light .section__col-text,
+body.light .images-section__heading {
+  color: #353430;
+  background: #ff8dcb;
+}
+
+body.light .section-heading,
+body.light .list__item-text {
+  color: #353430;
+}
+
+body.light .footer__text {
+  color: #ffc2e6;
+  text-shadow: 2px 2px 0px #ff0070;
+}
+
+body.light .text-link {
+  color: #353430;
+  text-shadow: 2px 2px 0px #ff8dcb;
+}
+
+body.light .text-link::after {
+  border: 1px solid #353430;
+}
